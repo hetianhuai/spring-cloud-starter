@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hetianhuai/spring-cloud-starter        # 配置git仓库的地址
+          search-paths: config-repo                                     # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: hetianhuai                                          # git仓库的账号
+          password: he608914015105                                      # git仓库的密码
