@@ -7,7 +7,7 @@
     <groupId>com.learn.cloud</groupId>
     <artifactId>module-root</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>module-root</name>
     <description>Demo project for Spring Boot</description>
 
@@ -25,6 +25,7 @@
     </properties>
     <modules>
         <module>eureka-module</module>
+        <module>shiro-module</module>
     </modules>
 
     <dependencies>

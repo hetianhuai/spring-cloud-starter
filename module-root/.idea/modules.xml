@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/config-module/config-module.iml" filepath="$PROJECT_DIR$/config-module/config-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-module/eureka-module.iml" filepath="$PROJECT_DIR$/eureka-module/eureka-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-root.iml" filepath="$PROJECT_DIR$/module-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-module/shiro-module.iml" filepath="$PROJECT_DIR$/shiro-module/shiro-module.iml" />
     </modules>
   </component>
 </project>
